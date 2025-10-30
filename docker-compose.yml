@@ -1,0 +1,19 @@
+services:
+  blackwiremedia-bot:
+    image: mateocallec/blackwiremedia-bot
+    container_name: blackwiremedia-bot
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - NVD_API_KEY=${NVD_API_KEY}
+      - BLUESKY_IDENTIFIER=${BLUESKY_IDENTIFIER}
+      - BLUESKY_PASSWORD=${BLUESKY_PASSWORD}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_SECURE=${SMTP_SECURE}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      - ALERT_EMAIL_RECIPIENT=${ALERT_EMAIL_RECIPIENT}
