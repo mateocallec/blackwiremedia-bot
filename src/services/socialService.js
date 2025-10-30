@@ -104,7 +104,7 @@ class SocialService {
                 password: socialConfig.bluesky.password,
             });
 
-            let postText = `New CVE Alert\n${cve.cve_id}\n${cve.post_content}`;
+            let postText = `New CVE Alert 🚨\n${cve.cve_id}\n${cve.post_content}`;
             postText = postText.replaceAll("**", "");
             postText = this.truncate(postText, 300);
 
