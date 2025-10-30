@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
-## [1.0.0]
+## [1.0.0] — 2025-10-30
 
 ### Added
 - Initial prototype that fetches CVEs and generates social media images.
