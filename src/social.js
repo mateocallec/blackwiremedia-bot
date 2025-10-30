@@ -30,12 +30,9 @@ async function main() {
         for (const cve of vulnerabilities) {
             /**
              * @section SocialMediaPublishing
-             * Publishing on social media is currently disabled.
-             *
-             * Example:
-             * await socialService.publishOnBluesky(cve);
-             * await db.markLineAsUsed(cve.cve_id);
              */
+            await socialService.publishOnBluesky(cve);
+            await db.markLineAsUsed(cve.cve_id);
 
             // Prepare email subject and HTML content
             const subject = `New CVE Alert: ${cve.cve_id}`;
