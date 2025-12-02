@@ -6,9 +6,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [1.1.0] — 2025-12-2
+
+### Added
+
+- N/A
+
+### Changed
+
+- N/A
+
+### Fixed
+
+- Docker environment issue patched.
+
 ## [1.0.0] — 2025-10-30
 
 ### Added
+
 - Initial prototype that fetches CVEs and generates social media images.
 - AI-generated content (title, description, post content) using Google Gemini API.
 - Support for Bluesky API & sending email.
@@ -20,7 +35,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 - Markdown-style text formatting in generated images.
 
 ### Changed
+
 - N/A
 
 ### Fixed
+
 - N/A
