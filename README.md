@@ -6,7 +6,7 @@
 
 <div align="center">
     <a href="https://github.com/mateocallec/blackwiremedia-bot/releases"><img src="https://img.shields.io/github/v/release/mateocallec/blackwiremedia-bot?label=lastest%20release&color=blue" alt="Latest release" /></a>
-    <a href="https://github.com/mateocallec/SpoofEye/releases"><img src="https://img.shields.io/badge/platform-Debian-darkred" alt="Supported platforms" /></a>
+    <a href="https://github.com/mateocallec/blackwiremedia-bot/releases"><img src="https://img.shields.io/badge/platform-Debian-darkred" alt="Supported platforms" /></a>
     <a href="https://hub.docker.com/r/mateocallec/blackwiremedia-bot"><img src="https://img.shields.io/badge/docker-blackwiremedia--bot-blue?logo=docker" alt="Docker" /></a>
 </div>
 
